@@ -6,6 +6,7 @@ var path = function() {
   var newArgs = [__dirname, base].concat(args)
   return _path.join.apply(_path, newArgs)
 }
+
 var config = {
   db: path('db/db.json'),
   tmpDir: path('tmp'),
