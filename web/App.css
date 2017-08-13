@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 80px;
+  padding-top: 5px;
+  color: white;
+}
+
+.App-body {
+  padding: 20px;
+}
+
+.uploader {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.uploader .dropzone {
+  display: inline-block;
+}
